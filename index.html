@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my awesome portfolio website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+                                  <!-- Nav bar start -->
+    <div class="container">
+                   <!-- ////Hamberger -->
+         
+          <ul class="menu">
+            <li><a class="menuItem" href="#" onclick="unlockscroll();toggleMenu()">Home</a></li><br><br>
+            <li><a class="menuItem" href="#about1" onclick="unlockscroll();toggleMenu()" >About</a></li><br><br>
+            <li><a class="menuItem" href="#service1" onclick="unlockscroll();toggleMenu()" >Skills</a></li><br><br>
+            <li><a class="menuItem" href="#work1" onclick="unlockscroll();toggleMenu()" >Projects</a></li><br><br>
+           <li><a href="#blogs1" onclick="unlockscroll();toggleMenu()" >Hobby</a></li> <br><br>
+            <li><a class="menuItem" href="#edu" onclick="unlockscroll();toggleMenu()" >Education</a></li>
+          </ul>
+          <button class="hamburger" id="mob-menu-btn" onclick="lockScroll();">
+            
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+               <!-- hamberger end -->
+               
+      <nav class="flex items-center justify-between">
+
+        <div class="left flex items-center">
+          <div class="branding">
+            <img src="./images/logonew1.png" style="width: 75px; height: 75px;" alt="" />
+          </div>
+          
+            <a href="#" id="home">Home</a>
+            <a href="#about1">About</a>
+            <a href="#service1">Skills</a>
+            <a href="#work1">Projects</a>
+            <a href="#blogs1">Hobby</a>
+            <a href="#edu">Education</a>
+          
+        </div>
+        <div class="right">
+          <button class="btn1 btn-primary" onclick="window.scrollTo(300, 6000);">contact</button>
+        </div>
+      </nav>
+      <br><br>
+      <br><br>
+                                       <!-- Nav-bar end -->
+
+
+
+
+
+                                      <!-- Home Section start -->
+
+      <div class="hero flex items-center justify-between">
+        <div class="right flex-1">
+          <h6>Hello, </h6>
+          <h1> I'm a <br><span >Software Developer</span></br></h1>
+         
+          <p>
+            I like to build solid & scalable website & software with great UX/UI user experience , and I love what I do.
+          </p>
+          <div>
+            <button class="btn2 btn-secondary" onclick="window.open('https://docs.google.com/document/d/1OjjHhYnGNvTuoCb0spV6_ostwbOiHxe8wy6zbX-au0M/edit?usp=sharing')">DOWNLOAD CV</button>
+          </div>
+        </div>
+        <div class="left flex-1 flex  justify-center">
+          <img src="./images/me3.png" alt="" />
+        </div>
+
+      </div>
+    </div>
+  </header>
+                                      <!-- Home Section end-->
+ 
+  
+                                   <!-- About Section start -->
+
+  <section class="about" id="about1">
+    <div class="container flex items-center">
+      <!-- <div class="flex-11"> -->
+      <div class="flex-1 ">
+       
+
+       
+        <h1 >About <span>Me</span></h1>
+        <h3>It's me Anurag Yadav</h3>
+        <p>I am a prefinal year undergraduate indulged in learning the basics and advance concepts of Information 
+          Technology from NIT Raipur, A well known institute of national importance.I'm passionate about
+            software development, web development and problem solving. Proficient in
+             C++, JAVASCRIPT, and SQL and familiar using Linux, Git, Github,
+              Firebase. Developed some responsive web applications using HTML,CSS,JavaScript,Boostrap & concepts of
+               Socket programming, MongoDB Database and NodeJS based web
+                applications.
+        </p>
+        <div class="social " id="logoForRotation">
+          <a href="https://www.linkedin.com/in/anurag-yadav-9379ab190/"><img src="./images/img/linkedin.png" alt=""></a>
+          <a href="https://github.com/Anurag313y"><img src="./images/img/github-logo.png" alt=""></a>
+          <a href="https://www.instagram.com/anurag.yz/"><img src="./images/img/instagram.png" alt=""></a>
+          <a href="mailto:anuragbittu15103132000@gmail.com" target="anuragbittu15103132000@gmail.com"><img src="./images/img/gmail.png" alt=""></a>
+          <a href="https://leetcode.com/Anurag313/"><img src="./images/leet-modified.png" alt=""></a>
+        </div>
+      </div>
+      
+    <!-- </div> -->
+    <!-- <div class="flex-11"> -->
+      <div class="flex-1">
+        <img class="about-me-img" src="./images/me44.png" alt="">
+      </div>
+    <!-- </div> -->
+    
+     
+  </section>
+                              <!-- About Section end -->
+
+
+                            <!-- my skill section start -->
+  <section class="services" id="service1">
+    <div class="container">
+      <h1 class="section-heading"  ><span>My</span> Skills</h1>
+      <p style="color:rgb(99, 32, 32) ;">I have all the basic knowledge related to this ground. Like, I am 
+        efficient enough in C++, JavaScript, NodeJs, ReactJs, MongoDb  and other types of coding,
+         so here are my skills worth mentioning:</p>
+      <div class="card-wrapper">
+        <div class="card nohover">
+          <img src="./images/img/c++.png" alt="">
+          <h2>OOPs with C++</h2>
+          <p>I'm proficient in C++ programming language. I used Concepts of Object
+             Oriented Programming (OOPs) in building Bank Management
+              System project. I use C++ for my compititive Coding and solve Mathematical & 
+              Algorithmic problems in an efficient way.</p>
+        </div>
+        <div class="card nohover">
+          <img src="./images/img/github-logo.png" alt="">
+          <h2>Git & Github</h2>
+          <p>I'm familier with Version Control System using Git & I have knowledge
+             of Github too.<br> I'm also familier with Linux & know basics WireShark</p>
+        </div>
+        <div class="card nohover">
+          <img src="./images/img/frontend.png" alt="">
+          <h2>Front-End Developement</h2>
+          <p>I'm skilled in Front-End Developement . I'm proficient in technologies such as
+             HTML, CSS, JavaScript, ReactJs, Boostrap & I use this technologies for building 
+             many projects such as Pata-Tap Clone, Word counter,Quote Generator, URL Shortner ect. 
+          </p>
+        </div>
+        <div class="card nohover">
+          <img src="./images/img/algorithm1.png" alt="">
+          <h2>Data Structure & Algorithm </h2>
+          <p>I'm skilled in Data Structures and Algorithm and I like solving 
+            Problems based on them . I am a competitive programmer on Leetcode.</p>
+        </div>
+        <div class="card nohover">
+          <img src="./images/backend.png" alt="">
+          <h2>Back-End Developement</h2>
+          <p>I'm skilled in Back-End Developement . I'm proficient in technologies such as
+            NodeJs,ExpressJs, MongoDb & I use this technologies for building some projects such as Real-Time Chat Application(using socket Programming) ect.   
+             </p>
+        </div>
+        <div class="card nohover">
+          <img src="./images/img/puzzle.png" alt="">
+          <h2>Problem Solving</h2>
+          <p> I like problem solving and i enjoy it. I'm good at solving 
+            Puzzels, Mathematial & Algorithmic Problems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+                                 <!-- my skill section end-->
+
+
+                                 <!-- freelancer section start -->
+   <section class="freelancer">
+    <h1>I Am Available For Freelancer.</h1>
+    <p> Loking forward for some intresting freelancing opportunities.<br>
+      If you are interested you can contact me at the email or send me a message. You can download my CV from below. </p>
+    <button id="freelancebtn" class="btn btn-primary" style="color: white;">
+      <h2 onclick="window.open('https://docs.google.com/document/d/1OjjHhYnGNvTuoCb0spV6_ostwbOiHxe8wy6zbX-au0M/edit?usp=sharing')">Download</h2>
+    </button>
+  </section>
+                                   <!-- freelancer section end -->
+
+
+
+                                     <!-- Education section start -->
+  <section class="reviews" id="edu">
+    <div class="container">
+      <div class="cu"><h1 class="section-heading"><span class="review1">Education<br></span><h1 class="insideh1"></h1></h1></div>
+
+      <p style="text-align: center;">Education and learning is two parallel  lines which never ends , <br>
+        so here is my journey upto undergrad: </p>
+
+      <div class="slideshow-container" style="text-align: center; " >
+
+        <div class="mySlides fade" >
+          <img src="./images/nit1.jpeg" style="width:20%">
+         
+          <div class="text"><br>
+            <span>National Institute of Technology, Raipur</span><br>
+            <p>Indulged in learning the basics and advance concepts of Information 
+        Technology from NIT Raipur, A well known institute of national importance.</p>
+          </div>
+        </div>
+
+        <div class="mySlides fade"> 
+          <img src="./images/jnv1.jpg" style="width:20%;">
+          <div class="text">
+            <br>
+            <span>Jawahar Navodaya Vidyalaya, Mahasamund </span><br>
+            <p>I completed  wonderful 7 years of my life from here & pass the high school exam with 95% and senior secondary exam with 90.8%</p>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="./images/shishu.jpg" style="width:19.5%;">
+          <div class="text">
+            <br>
+            <span>Saraswati Shishu Mandir,Jhalap </span>
+            <p>The initial steps of school life i.e. class 1-5 were completed from here. </p>
+
+          </div>
+        </div>
+
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="slider-dots"></div>
+    </div>
+                                 <!--Education section end -->
+
+
+
+                                 <!-- Projects section start -->
+    <section class="work" id="work1">
+      <div class="container">
+        <h1 class="section-heading"><span>My</span>Projects</h1>
+        <br><br>
+        <div class="card-wrapper">
+         
+          <!-- //////Model window -->
+            <div class="card nohover">
+             
+            <div class="overlay ">
+              <span style="font-size: 2rem; color: rgb(100, 38, 38);">Tourism website </span><br><h1 style="color: rgb(63, 25, 25);">click here</h1>
+              <div class="container1">
+                
+                <img src="./images/project1.png" style="max-width:300px;cursor:pointer;"
+               onclick="onClick(this)" class="modal-hover-opacity"> 
+               
+              </div>
+            </div>
+            
+            <img  src="./images/project1.png" id="img1" alt="">
+            
+          </div> 
+
+
+          <div class="card nohover">
+            <div class="overlay">
+              <span style="font-size: 2rem; color: rgb(100, 38, 38);">URL Shortner</span><br><h1 style="color: rgb(63, 25, 25);">click here</h1>
+              <div class="container1">
+                <img src="./images/project2.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/project2.png" alt="">
+          </div>
+
+          <div class="card nohover">
+            <div class="overlay">
+              <span style="font-size: 2rem; color: rgb(100, 38, 38);">To-Do List</span><br><h1 style="color: rgb(63, 25, 25);">click here</h1>
+              <div class="container1">
+                <img src="./images/project3.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/project3.png" alt="">
+          </div>
+
+
+          <div class="card nohover">
+            <div class="overlay">
+              <span style="font-size: 2rem; color: rgb(100, 38, 38);">Simple Calculator</span><br><h1 style="color: rgb(63, 25, 25);">click here</h1>
+              <div class="container1">
+                <img src="./images/project4.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/project4.png" alt="">
+          </div>
+
+          <div class="card nohover">
+            <div class="overlay">
+              <span style="font-size: 2rem; color: rgb(100, 38, 38);"> Quote Generator</span><br><h1 style="color: rgb(63, 25, 25);">click here</h1>
+              <div class="container1">
+                <img src="./images/project5.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/project5.png" alt="">
+          </div>
+          <div class="card nohover">
+            <div class="overlay">
+              <span style="font-size: 2rem; color: rgb(100, 38, 38);">Word Counter</span><br><h1 style="color: rgb(63, 25, 25);">click here</h1>
+              <div class="container1">
+                <img src="./images/project6.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/project6.png" alt="">
+          </div> 
+
+      <div id="modal01" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="modal-content">
+          <img id="img01" style="max-width:100%">
+        </div>
+      </div>
+          
+        </div>
+      </div>
+    </section>
+                          <!-- Projects section end -->
+
+
+
+
+                          <!-- blog section start -->
+    <section class="blog" id="blogs1">
+      <div class="container">
+        <h1 class="section-heading" ><span>My Hobbies </span>& Interest </h1>
+        <p id="blogheading">A hobby is considered to be regular activity that is done 
+          for enjoyment. Here is mine : 
+        </p>
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./images/travel.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <a href="">
+                
+                <h1>Traveling</h1>
+              </a>
+              <span>Nov 12, 2021</span>
+              <p>My favorite hobby is travelling. I like all kinds of travel: by car,
+                 by train and travelling on foot.  I love to spend time in beautiful 
+                 places and admire the beauty of the natural attractions such as
+                  mountains, waterfalls, forest lakes, seas and oceans, forests,
+                   valleys, hills, etc.Travelling gives me a good opportunity to
+                    learn a lot about the history of the country I visit, to see 
+                    cultural and historical places,  to meet people of different 
+                    nationalities, to learn a lot about their traditions, customs
+                     and culture. In other words. I can expand my worldview and my
+                      mind. </p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./images/coding.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <a href="">
+                <h1>Programming</h1>
+              </a>
+              <span>Jan 3, 2022</span>
+              <p>I love programming very much. Programming is very versatile
+                 – you have to see the big picture, understand what the customer
+                  needs, how people behave and how business, technology and the 
+                  world work. ... Coding is full of that feeling. It's about dividing
+                   big problem into small sub-problems or tasks and solving them one
+                    by one. I've learned so much by overcoming the challenges that
+                     come with coding. Not only does coding make you a better problem
+                      solver but it also teaches you patience, perseverance, and
+                       discipline.</p>
+             
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./images/music.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <a href="">
+                <h1>Listening to Music</h1>
+              </a>
+              <span>May 12, 2021</span>
+              <p>Listening to music is my hobby because it can be very relaxing and
+                 enjoyable. According to Scientific American, listening to music 
+                 helps reduce stress and anxiety, improves mental functions like
+                  memory and reasoning, promotes cardiovascular health, increases
+                   pain tolerance, reduces depression which improves mood.It also
+                    boosts the immune system, improves sleep and has been proven to
+                     have a positive effect on the body.
+
+              </p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+                                <!-- blog section end -->
+
+
+                                <!-- contact me section starts -->
+    <section class="contact" id="contact1">
+      <div class="container">
+        <h1 class="section-heading">Contact <span>Me</span></h1>
+        <p>Following method could be used be used to contact me , feel free to contact!!</p>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="./images/smartphone.png" alt="">
+            <h2>Call Me On</h2>
+            <h6>+91 6268875161</h6>
+          </div>
+          <div class="card">
+            
+            <img src="./images/email.png" alt="">
+            <h2>Email Me On</h2>
+            <h6>anuragbittu15103132000@gmail.com</h6>
+          </div>
+          <div class="card" id="card3">
+            <img src="./images/map.png" alt="">
+            <h2>Home</h2>
+            <h6>Jhalap,  Chhattisgarh</h6>
+          </div>
+        </div>
+       
+        <div class="form-center">
+          <form action="https://formsubmit.co/3e0b06c83236b971b01fa65429cd0ef7" method="POST"/>
+        
+          <div class="input-wrap">
+            
+            <input type="text"  name="name"  placeholder="Your name*" required >
+            <input type="email" name="email" placeholder="Email Address*" required >
+           
+          </div>
+         
+          <div class="input-wrap-2">
+           
+            <input type="text" name="subject" placeholder="Subject" required>
+           
+            <textarea name="message" cols="30" rows="10" placeholder="Details of your problem" required></textarea>
+          </div>
+          <div class="btn-wrapper">
+        
+            <button class="btn btn-primary" onclick="window.location.href = '127.0.0.1:5500/thank.html';">Send message</button>
+          </div>
+        </form>	
+        </div>
+       
+      </div>
+    </section>
+                              <!-- contact me section end -->
+
+
+
+                                 <!-- footer start -->
+
+    <footer>
+      <img src="./images/logo.svg" alt="">
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/anurag-yadav-9379ab190/"> <img src="./images/img/linkedin.png" alt=""></a>
+        <a href="https://github.com/Anurag313y"> <img src="./images/img/github-logo.png" alt=""></a>
+        <a href="https://www.instagram.com/anurag.yz/"> <img src="./images/img/instagram.png" alt=""></a>
+        <a href="mailto:anuragbittu15103132000@gmail.com" target="anuragbittu15103132000@gmail.com"> <img src="./images/img/gmail.png" alt=""></a>
+      </div>
+      <div class="copyright" style="font-weight: bold;">
+        Designed By <span style="color: rgb(100, 38, 38);">  Anurag Yadav</span>
+      
+      </div>
+    </footer>
+                                  <!-- footer end -->
+                                 
+
+                      
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/client.js"></script>
+</body>
+
+</html>
